@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.nav{
+    width: 20%;
+    background-color: #cfeefe;
+}
+.option-list{
+    padding: 10px;
+}
+.option-list li{
+    list-style: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 1px;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.option-list li:hover{
+    background-color:#b4daed ;
+    border-right: 3px solid rgb(157, 25, 157);
+
+}
